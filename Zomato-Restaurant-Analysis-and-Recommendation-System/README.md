@@ -1,16 +1,5 @@
 # Zomato Restaurant Data Analysis and Recommendation System 🔥
 
-<p align="center">
-
-  [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-  
-  ![GitHub stars](https://img.shields.io/github/stars/chiragsamal/Zomato)
-  ![GitHub forks](https://img.shields.io/github/forks/chiragsamal/Zomato)
-  [![GitHub contributors](https://img.shields.io/github/contributors/chiragsamal/Zomato.svg)](https://GitHub.com/chiragsamal/Zomato/graphs/contributors/)
-  [![GitHub license](https://img.shields.io/github/license/chiragsamal/Zomato.svg)](https://github.com/chiragsamal/Zomato/blob/master/LICENSE)
-  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
-</p>  
 
 ![Zomato](https://github.com/chiragsamal/Zomato/blob/master/Images/zomato.jpg)
 
