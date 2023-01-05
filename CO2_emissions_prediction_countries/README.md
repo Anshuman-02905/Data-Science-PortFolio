@@ -1,6 +1,6 @@
 # Prediction of yearly CO2 emissions from country data
 # A Machine Learning Project
-### by Vladislav Todorov
+### by Anshuman Mandal
 
 ***
 ## README
