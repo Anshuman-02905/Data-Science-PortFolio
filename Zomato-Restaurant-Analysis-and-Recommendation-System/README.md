@@ -34,19 +34,3 @@ I was always astonished by how each of the restaurants are able to keep up the p
 
 You can download the dataset here: [Zomato Bangalore Restaurants](https://www.kaggle.com/himanshupoddar/zomato-bangalore-restaurants/download)
 
-## Sections 📚
-✔️ Exploratory Data Analysis\
-✔️ Visualization \
-✔️ Rate Prediction\
-✔️ Sentiment Analysis of Reviews\
-✔️ Recommendation System\
-
-## License 📄
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
-
-## Contributing 💡
-If you can help us with these. Please don't hesitate to open an [pull request](https://github.com/chiragsamal/Zomato/pulls) or [issue](https://github.com/chiragsamal/issue/issues).
-
-### Refrences 👏
- - [Finding the best restaurants in Bangalore](https://www.kaggle.com/parthsharma5795/finding-the-best-restaurants-in-bangalore)
- - [Zomato Bangalore Restaurant Rating Prediction](https://www.kaggle.com/bablukd/zomato-bangalore-restaurant-rating-prediction)
