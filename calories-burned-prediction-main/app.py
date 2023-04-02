@@ -9,7 +9,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 import time
-
+import os
+print(os.listdir())
 from matplotlib import style
 style.use("seaborn")
 import plotly.express as px
