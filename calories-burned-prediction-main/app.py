@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn import metrics
 import time
-import os
+
 from matplotlib import style
 style.use("seaborn")
 import plotly.express as px
@@ -18,7 +18,20 @@ import warnings
 warnings.filterwarnings('ignore')
 
 st.write("## Calories burned Prediction")
-st.image("https://assets.considerable.com/wp-content/uploads/2019/07/03093250/ExerciseRegimenPano.jpg" , use_column_width=True)
+from PIL import Image
+
+#opening the image
+image = Image.open('/app/data-science/calories-burned-prediction-main/gym_04.jpg')
+image    = image.resize((500,300))
+#displaying the image on streamlit app
+
+st.image(image, caption='Workout')
+st.sidebar.markdown('''
+    <a href="https://www.freepik.com/free-vector/young-man-exercising-fitness-gym-room-with-sport-equipment-workouts-guy-training-lifting-dumbbell-sitting-bench_24023173.htm#query=gym%20cartoon&position=0&from_view=keyword&track=ais">Image by studio4rt
+    </a> on Freepik''',
+    unsafe_allow_html=True
+)
+
 st.write("In this WebApp you will be able to observe your predicted calories burned in your body.Only thing you have to do is pass your parameters such as `Age` , `Gender` , `BMI` , etc into this WebApp and then you will be able to see the predicted value of kilocalories that burned in your body.")
 
 
