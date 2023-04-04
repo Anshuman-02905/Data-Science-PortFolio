@@ -38,6 +38,9 @@ limit={'Pregnancies': 140,
 st.write("## Diabeties Prediction App")
 
 #opening the image
+import os
+print(os.getcwd())
+print(os.listdir())
 image = Image.open('app/data-science/Diabeties-Prediction-App/IMG.png')
 image = image.resize((500,300))
 #displaying the image on streamlit app
