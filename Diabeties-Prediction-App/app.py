@@ -40,7 +40,7 @@ st.write("## Diabeties Prediction App")
 #opening the image
 import os
 st.write(os.getcwd())
-st.write(os.listdir())
+st.write(os.listdir()[3])
 image = Image.open('app/data-science/Diabeties-Prediction-App/IMG.png')
 image = image.resize((500,300))
 #displaying the image on streamlit app
