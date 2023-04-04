@@ -38,7 +38,7 @@ limit={'Pregnancies': 140,
 st.write("## Diabeties Prediction App")
 
 #opening the image
-image = Image.open('IMG.png')
+image = Image.open('app/data-science/Diabeties-Prediction-App/IMG.png')
 image = image.resize((500,300))
 #displaying the image on streamlit app
 
@@ -56,7 +56,7 @@ for i in range(100):
 st.write(data)
 
 
-df=pd.read_csv("diabetes.csv")
+df=pd.read_csv("app/data-science/Diabeties-Prediction-App/diabetes.csv")
 def add_label(row):
     if row['Outcome']==1:
         return "Diabetic"
