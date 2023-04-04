@@ -39,9 +39,9 @@ st.write("## Diabeties Prediction App")
 
 #opening the image
 import os
-st.write(os.getcwd())
-st.write(os.listdir()[1])
-image = Image.open('app/data-science/Diabeties-Prediction-App/IMG.png')
+#st.write(os.getcwd())
+#st.write(os.listdir()[1])
+image = Image.open('/app/data-science/Diabeties-Prediction-App/IMG.png')
 image = image.resize((500,300))
 #displaying the image on streamlit app
 
@@ -59,7 +59,7 @@ for i in range(100):
 st.write(data)
 
 
-df=pd.read_csv("app/data-science/Diabeties-Prediction-App/diabetes.csv")
+df=pd.read_csv("/app/data-science/Diabeties-Prediction-App/diabetes.csv")
 def add_label(row):
     if row['Outcome']==1:
         return "Diabetic"
