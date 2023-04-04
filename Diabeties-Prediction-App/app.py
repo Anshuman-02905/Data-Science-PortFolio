@@ -80,7 +80,7 @@ import plotly.graph_objs as go
 ## PREDICTION
 st.write("---")
 st.header("Prediction : ")
-loaded_model = pickle.load(open("Diabeties.sav", 'rb'))
+loaded_model = pickle.load(open("/app/data-science/Diabeties-Prediction-App/Diabeties.sav", 'rb'))
 prediction=loaded_model.predict(data)
 
 if(prediction[0]==0):
