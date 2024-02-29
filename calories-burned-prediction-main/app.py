@@ -29,7 +29,7 @@ print("Contents of the directory:")
 for item in files:
     print(item)
 
-image = Image.open('/app/data-science/calories-burned-prediction-main/gym_04.jpg')
+image = Image.open('calories-burned-prediction-main/gym_04.jpg')
 image    = image.resize((500,300))
 #displaying the image on streamlit app
 
