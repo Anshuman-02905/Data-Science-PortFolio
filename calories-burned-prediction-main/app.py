@@ -92,8 +92,8 @@ for i in range(100):
   time.sleep(0.01)
 st.write(data)
 
-calories = pd.read_csv("/app/data-science/calories-burned-prediction-main/calories.csv")
-exercise = pd.read_csv("/app/data-science/calories-burned-prediction-main/exercise.csv")
+calories = pd.read_csv("calories-burned-prediction-main/calories.csv")
+exercise = pd.read_csv("calories-burned-prediction-main/exercise.csv")
 
 exercise_df = exercise.merge(calories , on = "User_ID")
 # st.write(exercise_df.head())
@@ -103,7 +103,7 @@ exercise_df.drop(columns = "User_ID" , inplace = True)
 
 
 import joblib
-random_reg = joblib.load("/app/data-science/calories-burned-prediction-main/random_forest.joblib")
+random_reg = joblib.load("calories-burned-prediction-main/random_forest.joblib")
 prediction = random_reg.predict(df)
 
 st.write("---")
