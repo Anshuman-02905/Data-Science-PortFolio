@@ -21,6 +21,14 @@ st.write("## Calories burned Prediction")
 from PIL import Image
 
 #opening the image
+import os
+print("CURRENT DIRECTORY")
+print(os.getcwd())
+files=os.listdir(os.getcwd())
+print("Contents of the directory:")
+for item in files:
+    print(item)
+
 image = Image.open('/app/data-science/calories-burned-prediction-main/gym_04.jpg')
 image    = image.resize((500,300))
 #displaying the image on streamlit app
